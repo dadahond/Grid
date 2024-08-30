@@ -178,3 +178,32 @@ body {
     padding: 26px 32px 32px 32px;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 400px) {
+    .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 30px;
+        margin-top: 100px;
+    }
+    .daniel {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .jonathan {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .jeanette {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .patrick {
+        grid-column: 1/2;
+        grid-row: 4/6;
+    }
+    .kira {
+        grid-column: 1/2;
+        grid-row: 6/8;
+    }
+}
